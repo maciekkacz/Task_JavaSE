@@ -38,7 +38,7 @@ public class Test {
         System.out.println(min);
 
         System.out.println("-------------------");
-        
+
         int[][] multiArr = {
                 {1, 2, 3},
                 {8, 9, 10},
