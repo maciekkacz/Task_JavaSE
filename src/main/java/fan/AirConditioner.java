@@ -1,6 +1,6 @@
 package fan;
 
-public interface AirConditioners {
+public interface AirConditioner {
 
     double lowerTemperature(double temperature, double volume);
 }

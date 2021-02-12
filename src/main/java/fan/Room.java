@@ -5,9 +5,9 @@ public class Room {
     private double currentTemperature;
     private double targetTemperature;
     private double volume;
-    private AirConditioners airConditioners;
+    private AirConditioner airConditioners;
 
-    public Room(int number, double currentTemperature, double targetTemperature, double volume, AirConditioners airConditioners) {
+    public Room(int number, double currentTemperature, double targetTemperature, double volume, AirConditioner airConditioners) {
         this.number = number;
         this.currentTemperature = currentTemperature;
         this.targetTemperature = targetTemperature;
@@ -47,11 +47,11 @@ public class Room {
         this.volume = volume;
     }
 
-    public AirConditioners getAirConditioners() {
+    public AirConditioner getAirConditioners() {
         return airConditioners;
     }
 
-    public void setAirConditioners(AirConditioners airConditioners) {
+    public void setAirConditioners(AirConditioner airConditioners) {
         this.airConditioners = airConditioners;
     }
 
