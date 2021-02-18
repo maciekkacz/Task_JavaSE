@@ -12,7 +12,6 @@ public class RestaurantApp {
 
         Menu.MENU.forEach( menu -> System.out.println( menu ) );
         System.out.println( "placed orders after a decimal point" );
-
     }
 
     public static Order takeOrder() {
